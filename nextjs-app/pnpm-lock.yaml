@@ -17,8 +17,11 @@ dependencies:
 
 devDependencies:
   '@cloudflare/next-on-pages':
-    specifier: ^1.8.6
+    specifier: '1'
     version: 1.8.6(vercel@33.4.1)(wrangler@3.26.0)
+  '@cloudflare/workers-types':
+    specifier: ^4.20240129.0
+    version: 4.20240129.0
   '@types/node':
     specifier: ^20
     version: 20.11.16
@@ -31,6 +34,12 @@ devDependencies:
   typescript:
     specifier: ^5
     version: 5.3.3
+  vercel:
+    specifier: ^33.4.1
+    version: 33.4.1
+  wrangler:
+    specifier: ^3.26.0
+    version: 3.26.0
 
 packages:
 
@@ -111,6 +120,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@cloudflare/workers-types@4.20240129.0:
+    resolution: {integrity: sha512-VyHbih/bqh/RN2FRxnXznG0bpBIg9RfSP1ldbAVnCXFinjOdv0zm2P/RWqOVN9+FgU5sanRltwwT7jGngxZy8w==}
+    dev: true
 
   /@cspotcode/source-map-support@0.8.1:
     resolution: {integrity: sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==}
@@ -1102,7 +1115,7 @@ packages:
       supports-color:
         optional: true
     dependencies:
-      ms: 2.1.1
+      ms: 2.1.2
     dev: true
 
   /debug@4.3.4:
@@ -2395,7 +2408,6 @@ packages:
   /punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
-    requiresBuild: true
     dev: true
 
   /queue-microtask@1.2.3:

@@ -1,5 +1,7 @@
+
+
 export const metadata = {
-  title: "Next App",
+  title: "NextJS + PNPM + TS",
 };
 
 export default function RootLayout({
@@ -13,5 +15,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-export const runtime = 'edge';
