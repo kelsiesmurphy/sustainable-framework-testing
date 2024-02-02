@@ -1,1 +1,1 @@
-# React + TypeScript + Vite
+# React + TS + Vite + PNPM
