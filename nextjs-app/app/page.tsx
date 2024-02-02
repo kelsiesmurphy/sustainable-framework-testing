@@ -4,3 +4,5 @@ export default function Home() {
     <h1>Hello NextJS + TS + PNPM</h1>
   );
 }
+
+export const runtime = 'edge';
