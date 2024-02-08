@@ -1,0 +1,23 @@
+{
+  "name": "my-solid-app",
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start",
+    "pages:preview": "pnpm run build && npx wrangler pages dev dist --compatibility-date=2024-01-29 --compatibility-flag nodejs_compat",
+    "pages:deploy": "pnpm run build && wrangler pages deploy ./dist"
+  },
+  "dependencies": {
+    "@solidjs/start": "^0.5.1",
+    "solid-js": "^1.8.14",
+    "vinxi": "^0.2.1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240129.0",
+    "wrangler": "^3.26.0"
+  }
+}

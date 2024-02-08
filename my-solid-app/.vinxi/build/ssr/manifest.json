@@ -1,0 +1,11 @@
+{
+  "node_modules/.pnpm/shikiji@0.9.19/node_modules/shikiji/dist/onig.wasm": {
+    "file": "assets/onig-fd885c2d.wasm",
+    "src": "node_modules/.pnpm/shikiji@0.9.19/node_modules/shikiji/dist/onig.wasm"
+  },
+  "virtual:#vinxi/handler/ssr": {
+    "file": "ssr.js",
+    "isEntry": true,
+    "src": "virtual:#vinxi/handler/ssr"
+  }
+}

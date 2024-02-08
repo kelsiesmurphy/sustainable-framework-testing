@@ -1,1 +1,0 @@
-# SvelteKit + TS + PNPM
